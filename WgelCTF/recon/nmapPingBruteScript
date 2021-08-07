@@ -1,0 +1,13 @@
+nmap -Pn --script=dns-brute 10.10.170.177
+Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-08-07 14:20 CDT
+Stats: 0:00:04 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 10.30% done; ETC: 14:20 (0:00:35 remaining)
+Stats: 0:00:46 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 65.58% done; ETC: 14:21 (0:00:24 remaining)
+Nmap scan report for 10.10.170.177
+Host is up (0.20s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
