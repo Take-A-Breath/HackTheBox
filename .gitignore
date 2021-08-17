@@ -1,0 +1,2 @@
+# Ignore the following files, used for sourcing information and do not need to be pushed to GitHub
+bandit/bandit.labs.overthewire.org
