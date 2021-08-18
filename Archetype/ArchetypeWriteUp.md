@@ -157,13 +157,14 @@ I researched this response and found the following in the [Mirosoft Docs - IS_SR
 > Is the name of the SQL Server login to check. login is sysname, with a default of NULL. If no value is specified, the result is based on the current Execution context. If the parameter contains the word NULL will return NULL.`'role'` is the name of the server role that is being checked. role is `sysname`.
 
 ## Return Types
+
+
 | Return Values | Description                                                  |
-|------------------------------------------------------------------------------|
+|---------------|--------------------------------------------------------------|
 |  0            | login is not a member of role. Always returns 0 in Azure SQL |
-|------------------------------------------------------------------------------|
 |  1            | `login` is a member of `role`                                | 
-|------------------------------------------------------------------------------|
 |  `NULL`       | `role` or `login` is not valid, or user has no permission to view |
+
 
 Since we passed the argument of `'sysadmin'` to this command, the response code 1 confirms we do have `sysadmin` access.
 
