@@ -141,16 +141,10 @@ svctag:*LK*:6445::::::
 nobody:*LK*:6445::::::
 noaccess:*LK*:6445::::::
 nobody4:*LK*:6445::::::
-sammy:$5$Ebkn8jlK$i6SSPa0.u7Gd.0oJOT4T421N2OvsfXqAT1vCoYUOigB:6445::::::
-sunny:$5$iRMbpnBv$Zh7s6D7ColnogCdiVE5Flz9vCZOMkUFxklRhhaShxv3:17636::::::
+sammy:$5$[redacted]::::::
+sunny:$5$[redacted]::::::
 sunny@sunday:/backup$ pwd
 /backup
-```
-
-Actual credentials:
-```
-sammy:$5$Ebkn8jlK$i6SSPa0.u7Gd.0oJOT4T421N2OvsfXqAT1vCoYUOigB:6445::::::
-sunny:$5$iRMbpnBv$Zh7s6D7ColnogCdiVE5Flz9vCZOMkUFxklRhhaShxv3:17636::::::
 ```
 
 * NTH:
@@ -172,7 +166,7 @@ Session completed
 ```
 
 * switched user to `sammy` and reached the user flag.
-User flag: a3d9498027ca5187ba1793943ee8a598
+User flag: ********************************
 
 #### Privesc
 ```Console
@@ -205,4 +199,4 @@ Password:
 sunny@sunday:/backup# whoami
 root
 
-Root flag: fb40fab61d99d37536daeec0d97af9b8
+Root flag: ********************************
