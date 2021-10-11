@@ -1,0 +1,50 @@
+# Nmap 7.92 scan initiated Sun Oct 10 23:31:00 2021 as: nmap -vvv -p 79,111,22022,36077,47822 -sV -A -oN nmap/initialScan.log 10.129.234.47
+Nmap scan report for 10.129.234.47
+Host is up, received echo-reply ttl 254 (0.042s latency).
+Scanned at 2021-10-10 23:31:01 CDT for 67s
+
+PORT      STATE SERVICE   REASON         VERSION
+79/tcp    open  finger    syn-ack ttl 59 Sun Solaris fingerd
+|_finger: No one logged on\x0D
+111/tcp   open  rpcbind   syn-ack ttl 63 2-4 (RPC #100000)
+22022/tcp open  ssh       syn-ack ttl 59 SunSSH 1.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 d2:e5:cb:bd:33:c7:01:31:0b:3c:63:d9:82:d9:f1:4e (DSA)
+| ssh-dss AAAAB3NzaC1kc3MAAACBAKQhj2N5gfwsseuHbx/yCXwOkphQCTzDyXaBw5SHg/vRBW9aYPsWUUV0XGZPlVtbhxFylTZGNZTWJyndzQL3aRcQNouwVH8NnQsT63s4uLKsAP3jx4afAwB7049PvisAxtDVMbqg94vxaJkh88VY/EMpASYNrLFtr1mZngrbAzOvAAAAFQCiLK6Oh21fvEjgZ0Yl0IRtONW/wwAAAIAxz1u+bPH+VE7upID2HEvYksXOItmohsDFt0oHmGMHf9TKwZvqQLZRix0eXYu8zLnTIdg7rVYSjGyRhuWeIkl1+0aIJL4/dzB+JthInTGFIngc83MtonLP4Sj3YL20wL9etVh8/M0ZOedntWrQcUW+8cUWZRlgW8q620HZKE8VqAAAAIB0s8wn1ufviVEKXct60uz2ZoduUgg07dfPfzvhpbw232KYUJ6lchTj2p2AV8cD0fk2lok2Qc6Kn/OKSjO9C0PlvG8WWkVVvlISUY4BEhtqtL3aof7PYp5nCrLK+2v+grCLxOvyYpT1OfDMQbahOWGZ9OCwQtQXKP1wYEQMqMsSRg==
+|   1024 e4:2c:80:62:cf:15:17:79:ff:72:9d:df:8b:a6:c9:ac (RSA)
+|_ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEAxAwq7HNZXHr7XEeYeKsbnaruPQyUK5IkSE/FxHesBaKQ37AsLjw8iacqUvcs8IuhPfiTtwuwU42zUHu1e1rmLpRlMyLQnjgJH1++fP5E0Qnxj4DrFr7aeRv1FqPkrnK/xCX46AdgUhs4+4YA04yfi8pOlaSEVucYaqWNhuqJkt8=
+36077/tcp open  smserverd syn-ack ttl 59 1 (RPC #100155)
+47822/tcp open  unknown   syn-ack ttl 63
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+Aggressive OS guesses: Sun Solaris 8 (98%), Sun Solaris 10 (94%), Sun OpenSolaris 2008.11 (94%), Sun Solaris 9 or 10, or OpenSolaris 2009.06 snv_111b (94%), Sun Solaris 9 or 10 (SPARC) (92%), Sun Storage 7210 NAS device (92%), Sun Solaris 9 or 10 (92%), Oracle Solaris 11 (91%), Sun Solaris 8 (SPARC) (91%), Sun Solaris 9 (89%)
+No exact OS matches for host (test conditions non-ideal).
+TCP/IP fingerprint:
+SCAN(V=7.92%E=4%D=10/10%OT=79%CT=%CU=42195%PV=Y%DS=2%DC=T%G=N%TM=6163BE48%P=x86_64-apple-darwin20.4.0)
+SEQ(SP=9A%GCD=1%ISR=A3%TI=I%CI=I%II=I%SS=S%TS=7)
+OPS(O1=NNT11M550NW0NNS%O2=NNT11M550NW0NNS%O3=NNT11M550NW0%O4=NNT11M550NW0NNS%O5=NNT11M550NW0NNS%O6=NNT11M550NNS)
+WIN(W1=C2D4%W2=C2D4%W3=C1CC%W4=C068%W5=C068%W6=C0B7)
+ECN(R=Y%DF=Y%T=3C%W=C490%O=M550NW0NNS%CC=Y%Q=)
+T1(R=Y%DF=Y%T=3C%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=N)
+T3(R=N)
+T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+U1(R=Y%DF=Y%T=FF%IPL=70%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)
+IE(R=Y%DFI=Y%T=FF%CD=S)
+
+Uptime guess: 0.002 days (since Sun Oct 10 23:29:28 2021)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=152 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Solaris; CPE: cpe:/o:sun:sunos
+
+TRACEROUTE (using port 111/tcp)
+HOP RTT      ADDRESS
+1   46.82 ms 10.10.14.1
+2   40.09 ms 10.129.234.47
+
+Read data files from: /usr/local/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Oct 10 23:32:08 2021 -- 1 IP address (1 host up) scanned in 68.34 seconds

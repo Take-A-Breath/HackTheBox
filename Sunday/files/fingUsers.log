@@ -1,0 +1,23 @@
+finger access@10.129.234.95 
+[10.129.234.95]
+Login       Name               TTY         Idle    When    Where
+nobody   NFS Anonymous Access               < .  .  .  . >
+noaccess No Access User                     < .  .  .  . >
+nobody4  SunOS 4.x NFS Anonym               < .  .  .  . >
+
+Login       Name               TTY         Idle    When    Where
+adm      Admin                              < .  .  .  . >
+lp       Line Printer Admin                 < .  .  .  . >
+uucp     uucp Admin                         < .  .  .  . >
+nuucp    uucp Admin                         < .  .  .  . >
+dladm    Datalink Admin                     < .  .  .  . >
+listen   Network Admin                      < .  .  .  . >
+
+Login       Name               TTY         Idle    When    Where
+root     Super-User            pts/3        <Apr 24, 2018> sunday
+
+Login       Name               TTY         Idle    When    Where
+sammy    sammy                 console      <Sep 30, 2020>
+
+Login       Name               TTY         Idle    When    Where
+sunny    sunny                 pts/3        <Apr 24, 2018> 10.10.14.4

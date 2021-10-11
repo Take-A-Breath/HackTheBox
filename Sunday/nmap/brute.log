@@ -1,0 +1,2 @@
+# Nmap 7.92 scan initiated Sun Oct 10 23:36:51 2021 as: nmap -sV -p79,111,22022,36077,47822 --script=brute -v -T5 -oG nmap/brute.log 10.129.234.47
+# Ports scanned: TCP(5;79,111,22022,36077,47822) UDP(0;) SCTP(0;) PROTOCOLS(0;)
