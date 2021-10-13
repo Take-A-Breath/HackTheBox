@@ -8,5 +8,8 @@
 * Sunday
   * [HackTheBox - Sunday](https://app.hackthebox.eu/machines/136)
   * [Writeup](https://github.com/Take-A-Breath/CTF-Writeups/blob/main/Sunday/HtB_SundayWriteup.md)
+* Networked
+  * [HackTheBox - Networked](https://app.hackthebox.eu/machines/Networked)
+  * [Writeup](https://github.com/Take-A-Breath/CTF-Writeups/blob/main/NetworkedWriteup.md)
 
 [List of resources (updated regularly)](https://github.com/Take-A-Breath/CTF-Writeups/blob/main/resources.md)
