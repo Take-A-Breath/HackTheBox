@@ -20,6 +20,7 @@ Found in source:
 `<!-- upload and gallery not yet linked -->` 
 
 #### Directories
+```
 ───────────────────────────┬──────────────────────
  🎯  Target Url            │ http://10.129.235.199
  🚀  Threads               │ 80
@@ -36,7 +37,7 @@ Found in source:
 200        5l       13w      169c http://10.129.235.199/upload.php
 200        0l        0w        0c http://10.129.235.199/lib.php
 301        7l       20w      237c http://10.129.235.199/backup
-
+```
  * File upload available at `http://10.129.235.199/upload.php` 
  * File directory at `http://10.129.235.199/backup/` with file `backup.tar`
 
