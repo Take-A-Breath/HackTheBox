@@ -1,6 +1,5 @@
 # Networked
 ## HackTheBox
-### 10.129.235.199
 
 #### NMAP
    PORT   STATE SERVICE REASON         VERSION
