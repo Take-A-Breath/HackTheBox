@@ -1,0 +1,20 @@
+/upload.php           (Status: 200) [Size: 169]
+/photos.php           (Status: 200) [Size: 1302]
+/index.php            (Status: 200) [Size: 229]
+/backup               (Status: 301) [Size: 237] [--> http://10.129.235.199/backup/]
+/lib.php              (Status: 200) [Size: 0]
+/uploads              (Status: 301) [Size: 238] [--> http://10.129.235.199/uploads/]
+301        7l       20w      237c http://10.129.235.199/backup
+301        7l       20w      238c http://10.129.235.199/uploads
+200        0l        0w        0c http://10.129.235.199/lib.php
+200        5l       13w      169c http://10.129.235.199/upload.php
+200       22l       88w     1302c http://10.129.235.199/photos.php
+200        1l        1w        2c http://10.129.235.199/uploads/index.html
+200        8l       40w      229c http://10.129.235.199/index.php
+200        8l       40w      229c http://10.129.235.199/index.php
+301        7l       20w      238c http://10.129.235.199/uploads
+200       22l       88w     1302c http://10.129.235.199/photos.php
+200        1l        1w        2c http://10.129.235.199/uploads/index.html
+200        5l       13w      169c http://10.129.235.199/upload.php
+200        0l        0w        0c http://10.129.235.199/lib.php
+301        7l       20w      237c http://10.129.235.199/backup
