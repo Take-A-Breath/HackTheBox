@@ -1,0 +1,97 @@
+target:
+  host: 10.129.1.92
+  workgroup: ''
+credentials:
+  user: ''
+  password: ''
+  random_user: aqpacwth
+services:
+  LDAP:
+    port: 389
+    accessible: false
+  LDAPS:
+    port: 636
+    accessible: false
+  SMB:
+    port: 445
+    accessible: true
+  SMB over NetBIOS:
+    port: 139
+    accessible: true
+workgroup: WORKGROUP
+nmblookup:
+- FROLIC          <00> -         B <ACTIVE>  Workstation Service
+- FROLIC          <03> -         B <ACTIVE>  Messenger Service
+- FROLIC          <20> -         B <ACTIVE>  File Server Service
+- WORKGROUP       <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+- WORKGROUP       <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
+- MAC Address = 00-00-00-00-00-00
+smb_dialects:
+  SMB 1.0: true
+  SMB 2.02: true
+  SMB 2.1: true
+  SMB 3.0: true
+  SMB1 only: false
+  Preferred dialect: SMB 3.0
+  SMB signing required: false
+sessions_possible: true
+null_session_possible: true
+user_session_possible: false
+random_user_session_possible: true
+domain_sid: NULL SID
+member_of: workgroup
+domain_info:
+  NetBIOS computer name: FROLIC
+  NetBIOS domain name: ''
+  DNS domain: ''
+  FQDN: frolic
+os_info:
+  OS: Linux/Unix (Samba 4.3.11-Ubuntu)
+  OS version: '6.1'
+  OS release: ''
+  OS build: '0'
+  Native OS: Windows 6.1
+  Native LAN manager: Samba 4.3.11-Ubuntu
+  Platform id: '500'
+  Server type: '0x809a03'
+  Server type string: Wk Sv PrQ Unx NT SNT frolic server (Samba, Ubuntu)
+users: {}
+groups: {}
+shares:
+  print$:
+    type: Disk
+    comment: Printer Drivers
+    access:
+      mapping: denied
+      listing: n/a
+  IPC$:
+    type: IPC
+    comment: IPC Service (frolic server (Samba, Ubuntu))
+policy:
+  domain_password_information:
+    pw_history_length: None
+    min_pw_length: 5
+    min_pw_age: none
+    max_pw_age: not set
+    pw_properties:
+    - DOMAIN_PASSWORD_COMPLEX: false
+    - DOMAIN_PASSWORD_NO_ANON_CHANGE: false
+    - DOMAIN_PASSWORD_NO_CLEAR_CHANGE: false
+    - DOMAIN_PASSWORD_LOCKOUT_ADMINS: false
+    - DOMAIN_PASSWORD_PASSWORD_STORE_CLEARTEXT: false
+    - DOMAIN_PASSWORD_REFUSE_PASSWORD_CHANGE: false
+  domain_lockout_information:
+    lockout_observation_window: 30 minutes
+    lockout_duration: 30 minutes
+    lockout_threshold: None
+  domain_logoff_information:
+    force_logoff_time: not set
+printers: {}
+errors:
+  services:
+    enum_services:
+    - Could not connect to LDAP on 389/tcp
+    - Could not connect to LDAPS on 636/tcp
+  shares:
+    enum_shares:
+    - 'Could not check share: STATUS_OBJECT_NAME_NOT_FOUND'
