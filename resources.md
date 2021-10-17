@@ -81,6 +81,8 @@
  * [Bruteforcing Subdomains with WFuzz](https://infinitelogins.com/2020/09/02/bruteforcing-subdomains-wfuzz/)
  * [ANY.RUN - Interactive Online Malware analysis](https://any.run/)
  * [Linux Binary Exploitation](https://www.romanh.de/article/binary-exploitation)
+ * [Online javaScript beautifier](https://beautifier.io/)
+ * [Gin - Git Index File parser](https://github.com/sbp/gin)
  
 # OSINT
  * [OSINT Dojo](https://www.osintdojo.com/)
