@@ -97,4 +97,5 @@
  * [StegOnline](https://stegonline.georgeom.net/upload)
 
 # Fuzzing Wordlists
-[XSS Payload list](https://github.com/payloadbox/xss-payload-list)
+ * [XSS Payload list](https://github.com/payloadbox/xss-payload-list)
+ * [Arjun parameters wordlist - API's](https://raw.githubusercontent.com/s0md3v/Arjun/master/arjun/db/params.txt)
