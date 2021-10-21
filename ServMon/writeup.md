@@ -226,7 +226,7 @@ servmon\nadine
 ```
 
 Grabbed `user.txt`
-Flag: cda-------~[takeAbreath]~------- 
+Flag: cda\-------~[takeAbreath]~-------
 
 ### PrivEsc
 Download winPEAS
@@ -324,4 +324,4 @@ The python script didn't work. Tried another avenue by using the steps above.
 7. You will get shell as `nt authority\system`
 8. Get flag on the Administrator Desktop
 
-Root flag: f6e-------~[takeAbreath]~-------
+Root flag: f6e\-------~[takeAbreath]~-------
