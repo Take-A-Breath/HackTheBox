@@ -14,5 +14,8 @@
 * Return 🪟
   * [HackTheBox - Return](https://app.hackthebox.eu/machines/Return)
   * [Writeup](https://github.com/Take-A-Breath/CTF-Writeups/blob/main/Return/ReturnWriteUp.md)
+* ServMon 🪟
+  * [HackTheBox - ServMon](https://app.hackthebox.eu/machines/ServMon)
+  * [Writeup](https://github.com/Take-A-Breath/CTF-Writeups/blob/main/ServMon/writeup.md)
 
 [List of resources (updated regularly)](https://github.com/Take-A-Breath/CTF-Writeups/blob/main/resources.md)
