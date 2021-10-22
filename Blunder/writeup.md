@@ -3,8 +3,7 @@
 ### HackTheBox
 ### Easy
 
-IP: 10.129.95.225
-Host: blunder.htb
+* Host: blunder.htb
 
 ### NMAP
 ```

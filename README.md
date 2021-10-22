@@ -28,5 +28,8 @@
 * ServMon 🪟
   * [HackTheBox - ServMon](https://app.hackthebox.eu/machines/ServMon)
   * [Writeup](https://github.com/Take-A-Breath/CTF-Writeups/blob/main/ServMon/writeup.md)
+* Blunder 🐧
+  * [HackTheBox - Blunder](https://app.hackthebox.eu/machines/Blunder)
+  * [Writeup](https://github.com/Take-A-Breath/HackTheBox/blob/main/Blunder/writeup.md)
 
 [List of resources (updated regularly)](https://github.com/Take-A-Breath/CTF-Writeups/blob/main/resources.md)
