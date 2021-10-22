@@ -1,0 +1,13 @@
+200      105l      303w     3290c http://blunder.htb/about
+200      170l      918w     7573c http://blunder.htb/0
+301        0l        0w        0c http://blunder.htb/admin
+200        1l        5w       30c http://blunder.htb/install.php
+200        2l        4w       22c http://blunder.htb/robots.txt
+200        4l       23w      118c http://blunder.htb/todo.txt
+200      110l      387w     3969c http://blunder.htb/usb
+200       21l      171w     1083c http://blunder.htb/LICENSE
+403        9l       28w      276c http://blunder.htb/server-status
+200      170l      918w     7573c http://blunder.htb/%3FRID%3D2671
+200      170l      918w     7573c http://blunder.htb/%3FRID%3D2671.php
+200      170l      918w     7573c http://blunder.htb/%3FRID%3D2671.html
+200      170l      918w     7573c http://blunder.htb/%3FRID%3D2671.txt

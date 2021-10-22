@@ -1,0 +1,5 @@
+# Nmap 7.92 scan initiated Fri Oct 22 10:18:09 2021 as: nmap -vvv -p 80 -sV -A -oG nmap/initialScan.log 10.129.95.225
+# Ports scanned: TCP(1;80) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.95.225 ()	Status: Up
+Host: 10.129.95.225 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.41 ((Ubuntu))/	Seq Index: 260	IP ID Seq: All zeros
+# Nmap done at Fri Oct 22 10:18:22 2021 -- 1 IP address (1 host up) scanned in 13.42 seconds
