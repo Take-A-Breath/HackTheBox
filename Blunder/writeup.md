@@ -17,6 +17,7 @@ Host: blunder.htb
 
 ### http://blunder.htb
 __Directories__
+```Console
 ───────────────────────────┬──────────────────────
  🎯  Target Url            │ http://blunder.htb
  📖  Wordlist              │ /SecLists-master/Discovery/Web-Content/directory-list-2.3-medium.txt
@@ -36,7 +37,7 @@ __Directories__
 200      170l      918w     7573c http://blunder.htb/%3FRID%3D2671.php
 200      170l      918w     7573c http://blunder.htb/%3FRID%3D2671.html
 200      170l      918w     7573c http://blunder.htb/%3FRID%3D2671.txt
-
+```
 __Nikto__
 ```
 "robots.txt" contains 1 entry which should be manually viewed.
