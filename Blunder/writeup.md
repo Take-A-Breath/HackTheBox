@@ -7,13 +7,15 @@ IP: 10.129.95.225
 Host: blunder.htb
 
 ### NMAP
- * 80/tcp http Apache httpd 2.4.41 ((Ubuntu))
-    http-generator: Blunder
-    http-server-header: Apache/2.4.41 (Ubuntu)
-    http-methods:
-      Supported Methods: GET HEAD POST OPTIONS
-    http-title: Blunder | A blunder of interesting facts
-    http-favicon: Unknown favicon MD5: A0F0E5D852F0E3783AF700B6EE9D00DA
+```
+80/tcp http Apache httpd 2.4.41 ((Ubuntu))
+  http-generator: Blunder
+  http-server-header: Apache/2.4.41 (Ubuntu)
+  http-methods:
+    Supported Methods: GET HEAD POST OPTIONS
+  http-title: Blunder | A blunder of interesting facts
+  http-favicon: Unknown favicon MD5: A0F0E5D852F0E3783AF700B6EE9D00DA
+```
 
 ### http://blunder.htb
 __Directories__
