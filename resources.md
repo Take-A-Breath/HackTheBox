@@ -83,6 +83,7 @@
  * [Linux Binary Exploitation](https://www.romanh.de/article/binary-exploitation)
  * [Online javaScript beautifier](https://beautifier.io/)
  * [Gin - Git Index File parser](https://github.com/sbp/gin)
+ * [CeWL - Custom Word List generator](https://github.com/digininja/CeWL)
  
 # OSINT
  * [OSINT Dojo](https://www.osintdojo.com/)
