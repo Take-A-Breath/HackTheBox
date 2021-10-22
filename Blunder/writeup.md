@@ -120,6 +120,7 @@ More enumeration!
 
 ### http://blunder.htb
 __Directories__
+```
 301        0l        0w        0c http://blunder.htb/.git/logs/
 200       28l       28w      563c http://blunder.htb/.gitignore
 200      170l      918w     7573c http://blunder.htb/0
@@ -130,7 +131,7 @@ __Directories__
 200        1l        5w       30c http://blunder.htb/install.php
 200        2l        4w       22c http://blunder.htb/robots.txt
 200        4l       23w      118c http://blunder.htb/todo.txt
-
+```
 __.gitignore__
 ```
 .DS_Store
