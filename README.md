@@ -31,5 +31,8 @@
 * Blunder 🐧
   * [HackTheBox - Blunder](https://app.hackthebox.eu/machines/Blunder)
   * [Writeup](https://github.com/Take-A-Breath/HackTheBox/blob/main/Blunder/writeup.md)
+* Doctor 🐧
+  * [HacktheBox - Doctor](https://app.hackthebox.eu/machines/Doctor)
+  * [Writeup](https://github.com/Take-A-Breath/HackTheBox/blob/main/Doctor/writeup.md)
 
 [List of resources (updated regularly)](https://github.com/Take-A-Breath/CTF-Writeups/blob/main/resources.md)
