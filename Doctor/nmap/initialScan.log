@@ -1,0 +1,5 @@
+# Nmap 7.92 scan initiated Sat Oct 23 13:51:08 2021 as: nmap -vvv -p 22,80,8089 -sV -A -oG nmap/initialScan.log 10.129.2.21
+# Ports scanned: TCP(3;22,80,8089) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.2.21 (doctors.htb)	Status: Up
+Host: 10.129.2.21 (doctors.htb)	Ports: 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.41 ((Ubuntu))/, 8089/open/tcp//ssl|http//Splunkd httpd/	Seq Index: 260	IP ID Seq: All zeros
+# Nmap done at Sat Oct 23 13:51:53 2021 -- 1 IP address (1 host up) scanned in 45.81 seconds

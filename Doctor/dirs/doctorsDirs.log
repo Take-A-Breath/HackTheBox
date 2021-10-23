@@ -1,0 +1,8 @@
+200       95l      228w     4204c http://doctors.htb/login
+200      101l      238w     4493c http://doctors.htb/register
+200        6l        8w      101c http://doctors.htb/archive
+302        4l       24w      245c http://doctors.htb/home
+302        4l       24w      251c http://doctors.htb/account
+302        4l       24w      217c http://doctors.htb/logout
+200       77l      187w     3493c http://doctors.htb/reset_password
+403        9l       28w      276c http://doctors.htb/server-status

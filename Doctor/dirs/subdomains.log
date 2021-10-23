@@ -1,0 +1,11 @@
+Target: http://doctors.htb/
+Total requests: 114441
+==================================================================
+ID    Response   Lines      Word         Chars          Request    
+==================================================================
+00001:  C=302      3 L	      24 W	    237 Ch	  "www"
+
+Total time: 0
+Processed Requests: 52
+Filtered Requests: 51
+Requests/sec.: 0
