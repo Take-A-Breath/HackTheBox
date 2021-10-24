@@ -84,6 +84,7 @@
  * [Online javaScript beautifier](https://beautifier.io/)
  * [Gin - Git Index File parser](https://github.com/sbp/gin)
  * [CeWL - Custom Word List generator](https://github.com/digininja/CeWL)
+ * [SMTP-User-Enum](http://pentestmonkey.net/tools/user-enumeration/smtp-user-enum)
  
 # OSINT
  * [OSINT Dojo](https://www.osintdojo.com/)
