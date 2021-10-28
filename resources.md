@@ -32,7 +32,7 @@
 * [HackBox](https://github.com/strellic/Hackbox)
 
 # Courses
-* [ITVPro](https://go.itpro.tv/networkchuck)
+* [ITPro.tv](https://go.itpro.tv/networkchuck)
 * [O'Reilly Online Learning](https://www.oreilly.com/online-learning/feature-certification.html)
 * [PenTesterLab](https://pentesterlab.com/exercises?dir=desc&only=free&sort=published_at)
 * [Python for Pentesters - PenTestLab](https://www.pentesteracademy.com/course?id=1)
@@ -84,6 +84,7 @@
  * [Online javaScript beautifier](https://beautifier.io/)
  * [Gin - Git Index File parser](https://github.com/sbp/gin)
  * [CeWL - Custom Word List generator](https://github.com/digininja/CeWL)
+ * [RequestBin - For SSRF: inspect any event](https://requestbin.com/)
  
 # OSINT
  * [OSINT Dojo](https://www.osintdojo.com/)
