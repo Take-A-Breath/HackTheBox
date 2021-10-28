@@ -10,7 +10,9 @@
                ░  ░░  ░      ░  ░     ░  ░ ░         ░        ░  ░     ░  ░         ░  ░  ░░                
 ```
 # Writeups
-## Writeups on completed Capture the Flags
+## Writeups on [HackTheBox](http://www.hackthebox.eu) machines.
+
+__NOTICE:__ Per HackTheBox terms, these are all writeups of retired machines. If you use any of these, please click the thumbs up on the writeups tab of the machine.
 
 **Completed**
 * ARCHETYPE 🪟
