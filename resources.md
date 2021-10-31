@@ -84,12 +84,10 @@
  * [Online javaScript beautifier](https://beautifier.io/)
  * [Gin - Git Index File parser](https://github.com/sbp/gin)
  * [CeWL - Custom Word List generator](https://github.com/digininja/CeWL)
-<<<<<<< HEAD
  * [RequestBin - For SSRF: inspect any event](https://requestbin.com/)
-=======
  * [SMTP-User-Enum](http://pentestmonkey.net/tools/user-enumeration/smtp-user-enum)
->>>>>>> 014c2330e62f47b520957e183ea976b0361e3134
- 
+ * [JWT.io - Decode, Verify, and generate JWT](https://jwt.io) 
+
 # OSINT
  * [OSINT Dojo](https://www.osintdojo.com/)
  * [WiGLE - Wireless Network Map](https://wigle.net/index)
