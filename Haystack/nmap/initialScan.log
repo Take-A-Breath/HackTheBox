@@ -1,0 +1,5 @@
+# Nmap 7.92 scan initiated Mon Nov  8 12:40:26 2021 as: nmap -vvv -p 22,80,9200 -sV -A -oG nmap/initialScan.log 10.129.251.234
+# Ports scanned: TCP(3;22,80,9200) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.251.234 ()	Status: Up
+Host: 10.129.251.234 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.4 (protocol 2.0)/, 80/open/tcp//http//nginx 1.12.2/, 9200/open/tcp//http//nginx 1.12.2/	Seq Index: 262	IP ID Seq: All zeros
+# Nmap done at Mon Nov  8 12:40:44 2021 -- 1 IP address (1 host up) scanned in 17.95 seconds
