@@ -36,5 +36,8 @@ __NOTICE:__ Per HackTheBox terms, these are all writeups of retired machines. If
 * Doctor 🐧
   * [HacktheBox - Doctor](https://app.hackthebox.eu/machines/Doctor)
   * [Writeup](https://github.com/Take-A-Breath/HackTheBox/blob/main/Doctor/writeup.md)
+* Haystack 🐧
+  * [HacktheBox - Haystack](https://app.hackthebox.com/machines/Haystack)
+  * [Writeup](https://github.com/Take-A-Breath/HackTheBox/blob/main/Haystack/writeup.md)
 
 [List of resources (updated regularly)](https://github.com/Take-A-Breath/CTF-Writeups/blob/main/resources.md)
