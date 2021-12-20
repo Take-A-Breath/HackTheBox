@@ -87,6 +87,7 @@
  * [RequestBin - For SSRF: inspect any event](https://requestbin.com/)
  * [SMTP-User-Enum](http://pentestmonkey.net/tools/user-enumeration/smtp-user-enum)
  * [JWT.io - Decode, Verify, and generate JWT](https://jwt.io) 
+ * [Hexed.it - online hex editor](https://hexed.it/)
 
 # OSINT
  * [OSINT Dojo](https://www.osintdojo.com/)
