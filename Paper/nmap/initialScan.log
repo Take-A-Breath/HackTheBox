@@ -1,0 +1,5 @@
+# Nmap 7.92 scan initiated Wed Feb 16 21:23:01 2022 as: nmap -vvv -p 22,80,443 -sV -A -oG nmap/initialScan.log 10.129.156.89
+# Ports scanned: TCP(3;22,80,443) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.156.89 ()	Status: Up
+Host: 10.129.156.89 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.0 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.37 ((centos) OpenSSL|1.1.1k mod_fcgid|2.3.9)/, 443/open/tcp//ssl|http//Apache httpd 2.4.37 ((centos) OpenSSL|1.1.1k mod_fcgid|2.3.9)/	Seq Index: 261	IP ID Seq: All zeros
+# Nmap done at Wed Feb 16 21:23:21 2022 -- 1 IP address (1 host up) scanned in 20.18 seconds
