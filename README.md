@@ -39,5 +39,8 @@ __NOTICE:__ Per HackTheBox terms, these are all writeups of retired machines. If
 * Haystack 🐧
   * [HacktheBox - Haystack](https://app.hackthebox.com/machines/Haystack)
   * [Writeup](https://github.com/Take-A-Breath/HackTheBox/blob/main/Haystack/writeup.md)
+* Traceback 🐧
+  * [HacktheBox - Traceback](https://app.hackthebox.com/machines/233)
+  * [Writeup](https://github.com/Take-A-Breath/HackTheBox/blob/main/Traceback/writeup.md)
 
 [List of resources (updated regularly)](https://github.com/Take-A-Breath/CTF-Writeups/blob/main/resources.md)
