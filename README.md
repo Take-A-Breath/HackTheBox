@@ -42,5 +42,8 @@ __NOTICE:__ Per HackTheBox terms, these are all writeups of retired machines. If
 * Traceback 🐧
   * [HacktheBox - Traceback](https://app.hackthebox.com/machines/233)
   * [Writeup](https://github.com/Take-A-Breath/HackTheBox/blob/main/Traceback/writeup.md)
+* Traceback 🐧
+  * [HacktheBox - GoodGames](https://app.hackthebox.com/machines/GoodGames)
+  * [Writeup](https://github.com/Take-A-Breath/HackTheBox/blob/main/GoodGames/writeup.md)
 
 [List of resources (updated regularly)](https://github.com/Take-A-Breath/CTF-Writeups/blob/main/resources.md)

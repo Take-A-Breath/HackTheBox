@@ -1,0 +1,47 @@
+# Nmap 7.92 scan initiated Thu Apr 21 13:30:04 2022 as: nmap -sU -T5 -v -oA nmap/UDP.log goodgames.htb
+Warning: 10.129.96.71 giving up on port because retransmission cap hit (2).
+Increasing send delay for 10.129.96.71 from 0 to 50 due to 11 out of 25 dropped probes since last increase.
+Nmap scan report for goodgames.htb (10.129.96.71)
+Host is up (0.074s latency).
+Not shown: 963 open|filtered udp ports (no-response)
+PORT      STATE  SERVICE
+2/udp     closed compressnet
+49/udp    closed tacacs
+135/udp   closed msrpc
+515/udp   closed printer
+983/udp   closed unknown
+2048/udp  closed dls-monitor
+5010/udp  closed telelpathstart
+9370/udp  closed unknown
+16786/udp closed unknown
+17533/udp closed unknown
+18331/udp closed unknown
+19161/udp closed unknown
+19625/udp closed unknown
+19682/udp closed unknown
+20164/udp closed unknown
+20359/udp closed unknown
+21644/udp closed unknown
+22055/udp closed unknown
+24606/udp closed unknown
+26966/udp closed unknown
+29810/udp closed unknown
+29823/udp closed unknown
+32768/udp closed omad
+32780/udp closed sometimes-rpc24
+36458/udp closed unknown
+38063/udp closed unknown
+40622/udp closed unknown
+42056/udp closed unknown
+42508/udp closed candp
+43195/udp closed unknown
+44160/udp closed unknown
+45685/udp closed unknown
+49189/udp closed unknown
+51717/udp closed unknown
+51972/udp closed unknown
+53571/udp closed unknown
+60423/udp closed unknown
+
+Read data files from: /opt/homebrew/bin/../share/nmap
+# Nmap done at Thu Apr 21 13:30:35 2022 -- 1 IP address (1 host up) scanned in 31.33 seconds

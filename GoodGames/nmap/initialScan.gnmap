@@ -1,0 +1,5 @@
+# Nmap 7.92 scan initiated Thu Apr 21 13:21:36 2022 as: nmap -vvv -p 80 -sV -A -oA nmap/initialScan 10.129.96.71
+# Ports scanned: TCP(1;80) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.96.71 ()	Status: Up
+Host: 10.129.96.71 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.48/	Seq Index: 265	IP ID Seq: All zeros
+# Nmap done at Thu Apr 21 13:21:49 2022 -- 1 IP address (1 host up) scanned in 12.69 seconds
