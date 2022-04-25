@@ -88,6 +88,8 @@
  * [SMTP-User-Enum](http://pentestmonkey.net/tools/user-enumeration/smtp-user-enum)
  * [JWT.io - Decode, Verify, and generate JWT](https://jwt.io) 
  * [Hexed.it - online hex editor](https://hexed.it/)
+ * [Enum4linuxPy](https://github.com/0v3rride/Enum4LinuxPy)
+ * [AutoRecon](https://github.com/Tib3rius/AutoRecon)
 
 # OSINT
  * [OSINT Dojo](https://www.osintdojo.com/)
